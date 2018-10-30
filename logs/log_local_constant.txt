@@ -1,0 +1,115 @@
+chaikesh@turing:~/a02$ python local_train_constant.py 
+WARNING:tensorflow:From local_train_constant.py:89: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2018-10-30 14:06:14.524056: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+
+Epoch 1/100, train_cost = 3.182, test_accuracy = 0.435, time = 47.437,test-time=3.498
+Epoch 2/100, train_cost = 2.408, test_accuracy = 0.575, time = 42.476,test-time=1.889
+Epoch 3/100, train_cost = 2.076, test_accuracy = 0.586, time = 43.654,test-time=1.991
+Epoch 4/100, train_cost = 1.872, test_accuracy = 0.593, time = 43.675,test-time=1.902
+Epoch 5/100, train_cost = 1.729, test_accuracy = 0.599, time = 44.582,test-time=1.884
+Epoch 6/100, train_cost = 1.621, test_accuracy = 0.613, time = 43.943,test-time=1.979
+Epoch 7/100, train_cost = 1.535, test_accuracy = 0.628, time = 44.065,test-time=2.306
+Epoch 8/100, train_cost = 1.465, test_accuracy = 0.637, time = 46.167,test-time=1.915
+Epoch 9/100, train_cost = 1.407, test_accuracy = 0.668, time = 44.429,test-time=2.074
+Epoch 10/100, train_cost = 1.359, test_accuracy = 0.694, time = 44.719,test-time=2.050
+Epoch 11/100, train_cost = 1.317, test_accuracy = 0.704, time = 44.051,test-time=2.008
+Epoch 12/100, train_cost = 1.282, test_accuracy = 0.706, time = 44.267,test-time=1.888
+Epoch 13/100, train_cost = 1.251, test_accuracy = 0.708, time = 45.791,test-time=1.989
+Epoch 14/100, train_cost = 1.224, test_accuracy = 0.712, time = 45.116,test-time=2.100
+Epoch 15/100, train_cost = 1.201, test_accuracy = 0.727, time = 44.274,test-time=2.009
+Epoch 16/100, train_cost = 1.181, test_accuracy = 0.728, time = 44.995,test-time=1.932
+Epoch 17/100, train_cost = 1.163, test_accuracy = 0.729, time = 44.690,test-time=2.007
+Epoch 18/100, train_cost = 1.147, test_accuracy = 0.730, time = 43.869,test-time=1.946
+Epoch 19/100, train_cost = 1.132, test_accuracy = 0.730, time = 44.318,test-time=1.947
+Epoch 20/100, train_cost = 1.120, test_accuracy = 0.731, time = 44.328,test-time=1.905
+Epoch 21/100, train_cost = 1.108, test_accuracy = 0.732, time = 44.064,test-time=1.932
+Epoch 22/100, train_cost = 1.098, test_accuracy = 0.719, time = 44.878,test-time=2.032
+Epoch 23/100, train_cost = 1.088, test_accuracy = 0.719, time = 44.159,test-time=1.919
+Epoch 24/100, train_cost = 1.080, test_accuracy = 0.719, time = 43.970,test-time=2.094
+Epoch 25/100, train_cost = 1.072, test_accuracy = 0.719, time = 44.630,test-time=1.883
+Epoch 26/100, train_cost = 1.065, test_accuracy = 0.718, time = 43.143,test-time=2.262
+Epoch 27/100, train_cost = 1.059, test_accuracy = 0.718, time = 43.964,test-time=1.957
+Epoch 28/100, train_cost = 1.053, test_accuracy = 0.718, time = 44.978,test-time=2.034
+Epoch 29/100, train_cost = 1.047, test_accuracy = 0.718, time = 45.413,test-time=2.021
+Epoch 30/100, train_cost = 1.042, test_accuracy = 0.718, time = 43.722,test-time=1.938
+Epoch 31/100, train_cost = 1.037, test_accuracy = 0.718, time = 44.142,test-time=1.916
+Epoch 32/100, train_cost = 1.033, test_accuracy = 0.717, time = 44.740,test-time=2.001
+Epoch 33/100, train_cost = 1.028, test_accuracy = 0.717, time = 45.452,test-time=2.062
+Epoch 34/100, train_cost = 1.025, test_accuracy = 0.716, time = 43.925,test-time=1.955
+Epoch 35/100, train_cost = 1.021, test_accuracy = 0.716, time = 44.587,test-time=1.895
+Epoch 36/100, train_cost = 1.017, test_accuracy = 0.716, time = 43.671,test-time=2.004
+Epoch 37/100, train_cost = 1.014, test_accuracy = 0.715, time = 44.081,test-time=1.953
+Epoch 38/100, train_cost = 1.011, test_accuracy = 0.714, time = 44.004,test-time=1.881
+Epoch 39/100, train_cost = 1.008, test_accuracy = 0.714, time = 43.937,test-time=2.002
+Epoch 40/100, train_cost = 1.006, test_accuracy = 0.713, time = 44.289,test-time=1.982
+Epoch 41/100, train_cost = 1.003, test_accuracy = 0.712, time = 43.612,test-time=2.161
+Epoch 42/100, train_cost = 1.001, test_accuracy = 0.712, time = 43.179,test-time=1.890
+Epoch 43/100, train_cost = 0.998, test_accuracy = 0.711, time = 43.972,test-time=2.071
+Epoch 44/100, train_cost = 0.996, test_accuracy = 0.711, time = 44.190,test-time=1.898
+Epoch 45/100, train_cost = 0.994, test_accuracy = 0.711, time = 43.681,test-time=1.908
+Epoch 46/100, train_cost = 0.992, test_accuracy = 0.710, time = 44.327,test-time=2.047
+Epoch 47/100, train_cost = 0.990, test_accuracy = 0.709, time = 45.052,test-time=1.954
+Epoch 48/100, train_cost = 0.988, test_accuracy = 0.708, time = 44.556,test-time=1.947
+Epoch 49/100, train_cost = 0.987, test_accuracy = 0.708, time = 44.356,test-time=1.977
+Epoch 50/100, train_cost = 0.985, test_accuracy = 0.707, time = 45.075,test-time=2.004
+Epoch 51/100, train_cost = 0.984, test_accuracy = 0.707, time = 45.284,test-time=2.042
+Epoch 52/100, train_cost = 0.982, test_accuracy = 0.708, time = 44.260,test-time=1.899
+Epoch 53/100, train_cost = 0.981, test_accuracy = 0.707, time = 43.790,test-time=2.027
+Epoch 54/100, train_cost = 0.979, test_accuracy = 0.707, time = 44.395,test-time=2.034
+Epoch 55/100, train_cost = 0.978, test_accuracy = 0.706, time = 49.490,test-time=2.202
+Epoch 56/100, train_cost = 0.977, test_accuracy = 0.706, time = 48.373,test-time=1.876
+Epoch 57/100, train_cost = 0.976, test_accuracy = 0.705, time = 45.767,test-time=2.052
+Epoch 58/100, train_cost = 0.974, test_accuracy = 0.704, time = 46.994,test-time=2.072
+Epoch 59/100, train_cost = 0.973, test_accuracy = 0.704, time = 45.591,test-time=1.943
+Epoch 60/100, train_cost = 0.972, test_accuracy = 0.704, time = 45.910,test-time=1.994
+Epoch 61/100, train_cost = 0.971, test_accuracy = 0.704, time = 45.630,test-time=2.032
+Epoch 62/100, train_cost = 0.970, test_accuracy = 0.704, time = 44.789,test-time=1.960
+Epoch 63/100, train_cost = 0.969, test_accuracy = 0.704, time = 45.040,test-time=1.884
+Epoch 64/100, train_cost = 0.968, test_accuracy = 0.703, time = 44.434,test-time=1.876
+Epoch 65/100, train_cost = 0.967, test_accuracy = 0.703, time = 44.695,test-time=1.943
+Epoch 66/100, train_cost = 0.967, test_accuracy = 0.704, time = 44.168,test-time=1.986
+Epoch 67/100, train_cost = 0.966, test_accuracy = 0.704, time = 44.332,test-time=1.866
+Epoch 68/100, train_cost = 0.965, test_accuracy = 0.703, time = 43.658,test-time=1.845
+Epoch 69/100, train_cost = 0.964, test_accuracy = 0.703, time = 43.019,test-time=1.912
+Epoch 70/100, train_cost = 0.964, test_accuracy = 0.703, time = 43.969,test-time=1.955
+Epoch 71/100, train_cost = 0.963, test_accuracy = 0.703, time = 43.692,test-time=1.895
+Epoch 72/100, train_cost = 0.962, test_accuracy = 0.703, time = 44.082,test-time=2.043
+Epoch 73/100, train_cost = 0.961, test_accuracy = 0.703, time = 44.998,test-time=1.992
+Epoch 74/100, train_cost = 0.961, test_accuracy = 0.703, time = 44.736,test-time=1.866
+Epoch 75/100, train_cost = 0.960, test_accuracy = 0.703, time = 43.985,test-time=1.947
+Epoch 76/100, train_cost = 0.960, test_accuracy = 0.704, time = 44.110,test-time=2.012
+Epoch 77/100, train_cost = 0.959, test_accuracy = 0.704, time = 43.856,test-time=1.963
+Epoch 78/100, train_cost = 0.958, test_accuracy = 0.704, time = 44.810,test-time=1.907
+Epoch 79/100, train_cost = 0.958, test_accuracy = 0.704, time = 44.703,test-time=1.942
+Epoch 80/100, train_cost = 0.957, test_accuracy = 0.704, time = 44.172,test-time=1.922
+Epoch 81/100, train_cost = 0.957, test_accuracy = 0.705, time = 44.266,test-time=1.993
+Epoch 82/100, train_cost = 0.956, test_accuracy = 0.705, time = 44.649,test-time=1.996
+Epoch 83/100, train_cost = 0.956, test_accuracy = 0.705, time = 44.032,test-time=1.839
+Epoch 84/100, train_cost = 0.955, test_accuracy = 0.705, time = 43.890,test-time=1.963
+Epoch 85/100, train_cost = 0.955, test_accuracy = 0.705, time = 44.248,test-time=1.901
+Epoch 86/100, train_cost = 0.954, test_accuracy = 0.706, time = 44.389,test-time=1.951
+Epoch 87/100, train_cost = 0.954, test_accuracy = 0.706, time = 43.569,test-time=1.913
+Epoch 88/100, train_cost = 0.954, test_accuracy = 0.706, time = 44.969,test-time=2.007
+Epoch 89/100, train_cost = 0.953, test_accuracy = 0.706, time = 44.695,test-time=1.854
+Epoch 90/100, train_cost = 0.953, test_accuracy = 0.706, time = 44.380,test-time=1.926
+Epoch 91/100, train_cost = 0.952, test_accuracy = 0.706, time = 44.484,test-time=2.079
+Epoch 92/100, train_cost = 0.952, test_accuracy = 0.706, time = 44.698,test-time=1.845
+Epoch 93/100, train_cost = 0.952, test_accuracy = 0.706, time = 44.993,test-time=2.001
+Epoch 94/100, train_cost = 0.951, test_accuracy = 0.706, time = 44.871,test-time=1.956
+Epoch 95/100, train_cost = 0.951, test_accuracy = 0.707, time = 44.137,test-time=2.048
+Epoch 96/100, train_cost = 0.951, test_accuracy = 0.707, time = 44.297,test-time=1.846
+Epoch 97/100, train_cost = 0.950, test_accuracy = 0.707, time = 44.446,test-time=1.984
+Epoch 98/100, train_cost = 0.950, test_accuracy = 0.707, time = 44.747,test-time=1.990
+Epoch 99/100, train_cost = 0.950, test_accuracy = 0.707, time = 43.763,test-time=1.867
+Epoch 100/100, train_cost = 0.949, test_accuracy = 0.707, time = 44.863,test-time=1.957
+
+
+
+
